@@ -1164,7 +1164,7 @@ function login(loginData, options, callback) {
                         console.log(e)
                         logger.Warning("Error, auto turn off Websocket_extension");
                         global.Fca.Require.FastConfig.Websocket_Extension.Status = false;
-                        global.Fca.Require.fs.writeFileSync(process.cwd() + "/Orion_Database/FastConfigFca.json", JSON.stringify(global.Fca.Require.FastConfig, null, "\t"));
+                        global.Fca.Require.fs.writeFileSync(process.cwd() + "/FastConfigFca.json", JSON.stringify(global.Fca.Require.FastConfig, null, "\t"));
                         process.exit(1);
                     }
                 }
