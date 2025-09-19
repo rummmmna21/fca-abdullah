@@ -1,12 +1,12 @@
 {
-  "name": "fca-project-orion",
+  "name": "fca-rx",
   "version": "1.1.22",
-  "description": "",
+  "description": "rX Chat api",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
-  "author": "",
+  "author": "rX",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ivancotacte/fca-project-orion/issues"
@@ -89,5 +89,6 @@
       ]
     }
   },
-  "keywords": []
+  "keywords": [
+  ]
 }
